@@ -83,7 +83,7 @@ export const BentoGridItem = ({
               height={500}
               className={cn(
                 imgClassName,
-                "object-cover object-center"
+                "object-cover object-center size-full"
               )}
             />
           )}

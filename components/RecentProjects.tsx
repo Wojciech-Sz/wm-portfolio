@@ -21,14 +21,20 @@ const RecentProjects = () => {
               <PinContainer title={link} href={link}>
                 <div className="relative mb-10 flex h-[30vh] w-[80vw] items-center justify-center overflow-hidden sm:h-[40vh] sm:w-[570px]">
                   <div className="relative size-full overflow-hidden bg-[#13162d] lg:rounded-3xl">
-                    <Image src="/bg.png" alt="bg" fill />
+                    <Image
+                      src="/bg.png"
+                      alt="bg"
+                      width={464}
+                      height={300}
+                      className="size-full"
+                    />
                   </div>
                   <Image
                     src={img}
                     alt={title}
                     width={464}
                     height={300}
-                    className="absolute bottom-0 z-10"
+                    className="absolute bottom-0 z-10 size-auto"
                   />
                 </div>
                 <h2 className="line-clamp-1 text-base font-bold md:text-xl lg:text-2xl">
@@ -54,7 +60,7 @@ const RecentProjects = () => {
                           alt={icon}
                           width={75}
                           height={75}
-                          className="p-2"
+                          className="size-full p-2"
                         />
                       </div>
                     ))}

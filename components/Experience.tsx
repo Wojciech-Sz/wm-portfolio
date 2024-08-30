@@ -27,7 +27,7 @@ const Experience = () => {
                   alt={thumbnail}
                   width={100}
                   height={100}
-                  className="w-16 md:w-20 lg:w-32"
+                  className="h-auto w-16 md:w-20 lg:w-32"
                 />
                 <div className="lg:ms-5">
                   <h3 className="text-start text-xl font-bold md:text-2xl">

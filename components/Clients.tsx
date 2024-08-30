@@ -30,14 +30,14 @@ const Clients = () => {
                 alt={name}
                 width={50}
                 height={50}
-                className="w-5 md:w-10"
+                className="h-auto w-5 md:w-10"
               />
               <Image
                 src={nameImg}
                 alt={name}
                 width={100}
                 height={50}
-                className="w-20 md:w-24"
+                className="h-auto w-20 md:w-24"
               />
             </div>
           ))}
