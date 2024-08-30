@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer
       id="contact"
-      className="relative w-full overflow-hidden pb-10 pt-20"
+      className="relative w-full overflow-hidden pb-16"
     >
       <div className="absolute -bottom-72 left-0 min-h-96 w-full">
         <Image
