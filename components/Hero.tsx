@@ -35,10 +35,10 @@ const Hero = () => {
             className="text-center text-[2.5rem] md:text-5xl lg:text-6xl"
             words="Transforming Concepts into Seamless User Experience"
           />
-          <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
+          <h1 className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
             Hi, I&apos;m Wojtek, a Next.js Developer based
             in Poland
-          </p>
+          </h1>
           <Link href="#about" scroll>
             <MagicButton
               title="Show my work"
